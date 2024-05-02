@@ -25,6 +25,7 @@
         "drupal/core-recommended": "^10.2",
         "drupal/form_mode_manager": "^3.0",
         "drupal/jsonapi_extras": "^3.24",
+        "drupal/smtp": "^1.2",
         "drush/drush": "^12.4"
     },
     "conflict": {
