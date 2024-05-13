@@ -1,1 +1,3 @@
 x patch pro contact_storage module https://www.drupal.org/project/contact_storage/issues/3158051, howto: https://gorannikolovski.com/blog/how-to-apply-a-patch-in-drupal
+x nastavit email pro zasílání available updates
+
