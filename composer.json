@@ -47,7 +47,7 @@
     },
     "scripts": {
         "post-drupal-scaffold-cmd": [
-            "cd web && patch -p1 < patches/htaccess.patch"
+            "patch -p1 < patches/htaccess.patch"
         ]
     },
     "extra": {
