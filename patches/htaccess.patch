@@ -1,7 +1,7 @@
-diff --git a/htaccess b/htaccess
+diff --git a/web/.htaccess b/web/.htaccess
 index 4031da4..69338f4 100644
---- a/htaccess
-+++ b/htaccess
+--- a/web/.htaccess
++++ b/web/.htaccess
 @@ -60,6 +60,12 @@ AddEncoding gzip svgz
  <IfModule mod_rewrite.c>
    RewriteEngine on
