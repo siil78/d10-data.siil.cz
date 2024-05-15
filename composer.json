@@ -45,6 +45,11 @@
         },
         "sort-packages": true
     },
+    "scripts": {
+        "post-drupal-scaffold-cmd": [
+            "cd web && patch -p1 < patches/htaccess.patch"
+        ]
+    },
     "extra": {
         "drupal-scaffold": {
             "locations": {
