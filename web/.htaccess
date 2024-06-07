@@ -60,6 +60,12 @@ AddEncoding gzip svgz
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
+  ##
+  RewriteCond %{REQUEST_URI} entity/contact_message
+  RewriteCond %{HTTP_REFERER} !https://www.garaztattoo.cz/
+  RewriteCond %{QUERY_STRING} _format=json
+  RewriteRule entity/contact_message - [F]
+
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.

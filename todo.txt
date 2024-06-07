@@ -1,4 +1,4 @@
 x patch pro contact_storage module https://www.drupal.org/project/contact_storage/issues/3158051, howto: https://gorannikolovski.com/blog/how-to-apply-a-patch-in-drupal
 x nastavit email pro zasílání available updates
-- patch htaccess https://drupal.stackexchange.com/questions/271146/how-to-patch-your-htaccess-file-correctly-in-composer-json
+x patch htaccess https://drupal.stackexchange.com/questions/271146/how-to-patch-your-htaccess-file-correctly-in-composer-json
 x konfigurace odchozího mailu, odchozí mail je uložen v db jak entita => nastaveno přímo na server
