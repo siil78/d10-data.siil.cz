@@ -111,8 +111,5 @@
                 "Issue 3158051": "https://www.drupal.org/files/issues/2022-11-14/3158051-5.patch"
             }
         }
-    },
-    "require-dev": {
-        "drupal/routes_list": "^6.2"
     }
 }
